@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎯 JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 JavaScript Playground</h1>
+      <p>Play with buttons, tabs, forms, and more!</p>
+    </header>
+
+    <section class="card">
+      <h2>1️⃣ Event Handling</h2>
+      <button id="clickBtn" class="action-btn">Click Me</button>
+      <div id="hoverBox">Hover over me</div>
+      <input type="text" id="keyInput" placeholder="Type something..." />
+      <button id="secretBtn" class="secret-btn">Double Click Me</button>
+    </section>
+
+    <section class="card">
+      <h2>2️⃣ Interactive Elements</h2>
+      <button id="changeTextBtn" class="action-btn">Change My Text</button>
+
+      <div class="slideshow">
+        <img id="slideshowImg" src="" alt="Slideshow Image" />
+        <div class="slideshow-buttons">
+          <button id="prevBtn">◀️ Prev</button>
+          <button id="nextBtn">Next ▶️</button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab" data-tab="1">Tab 1</button>
+          <button class="tab" data-tab="2">Tab 2</button>
+          <button class="tab" data-tab="3">Tab 3</button>
+        </div>
+        <div class="tab-content" id="tab-1">🎈 This is content for Tab 1.</div>
+        <div class="tab-content" id="tab-2">🎨 Content for Tab 2 is here.</div>
+        <div class="tab-content" id="tab-3">🎵 Tab 3 brings the fun!</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3️⃣ Form Validation</h2>
+      <form id="myForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <span id="passwordMsg"></span>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ & JavaScript</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

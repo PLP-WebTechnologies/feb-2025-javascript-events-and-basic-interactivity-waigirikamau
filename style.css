@@ -1,0 +1,157 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #f2f6fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+  }
+  
+  header p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .action-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .secret-btn {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .secret-btn:hover {
+    background-color: #5936a5;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  #hoverBox {
+    width: 180px;
+    padding: 12px;
+    background-color: #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .slideshow {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .slideshow-buttons button {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .slideshow-buttons button:hover {
+    background-color: #e67e22;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tab-buttons button {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .tab-buttons button:hover {
+    background-color: #138496;
+  }
+  
+  .tab-content {
+    display: none;
+    margin-top: 15px;
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .tab-content.active {
+    display: block;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  #passwordMsg {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
